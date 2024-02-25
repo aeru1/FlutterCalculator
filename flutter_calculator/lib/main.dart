@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'custombutton.dart';
 
 void main() {
   runApp(const MyApp());
@@ -67,7 +68,27 @@ class _MyHomePageState extends State<MyHomePage> {
               child: GridView.count(
                 crossAxisCount: 4,
                 children:[
-                  
+                  CustomButton(buttonText: "A/C" , onPressed: (){}),
+                  CustomButton(buttonText: "+/-" , onPressed: (){}),
+                  CustomButton(buttonText: "%" , onPressed: (){}),
+                  CustomButton(buttonText: String.fromCharCode(0x00F7) , onPressed: (){}),
+                  CustomButton(buttonText: "7" , onPressed: (){}),
+                  CustomButton(buttonText: "8" , onPressed: (){}),
+                  CustomButton(buttonText: "9" , onPressed: (){}),
+                  CustomButton(buttonText: "X" , onPressed: (){}),
+                  CustomButton(buttonText: "4" , onPressed: (){}),
+                  CustomButton(buttonText: "5" , onPressed: (){}),
+                  CustomButton(buttonText: "6" , onPressed: (){}),
+                  CustomButton(buttonText: "-" , onPressed: (){}),
+                  CustomButton(buttonText: "1" , onPressed: (){}),
+                  CustomButton(buttonText: "2" , onPressed: (){}),
+                  CustomButton(buttonText: "3" , onPressed: (){}),
+                  CustomButton(buttonText: "+" , onPressed: (){}),
+
+                  CustomButton(buttonText: "0" , onPressed: (){}),
+
+                  CustomButton(buttonText: "1" , onPressed: (){}),
+                  CustomButton(buttonText: "=" , onPressed: (){}),
                 ]
               )
                       ),
